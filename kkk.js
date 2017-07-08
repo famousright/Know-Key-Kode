@@ -1,3 +1,5 @@
+$( document ).ready(function() {
+
 let i = 0;
 
 const colors = [
@@ -24,3 +26,4 @@ document.addEventListener('keydown', event => {
 function blink() { 
   $('.blink_me').fadeOut(10).fadeIn(10, blink); 
 };
+});
