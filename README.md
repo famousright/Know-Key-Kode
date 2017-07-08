@@ -1,3 +1,2 @@
-# Tetris
-Tetris (JavaScript)
-Originaly created by Meth Meth Method
+# Know Key Kode
+Know your key code (JavaScript)
