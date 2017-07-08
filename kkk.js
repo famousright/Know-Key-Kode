@@ -20,3 +20,7 @@ document.addEventListener('keydown', event => {
     i = 0;
     }
 });
+
+function blink() { 
+  $('.blink_me').fadeOut(10).fadeIn(10, blink); 
+};

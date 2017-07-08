@@ -5,6 +5,16 @@ body {
     text-align: center;
 }
 
+.blink_me {
+    animation: blinker 1s linear infinite;
+    font-size: 6vh;
+    font-family: Courier New, Courier, monospace;
+}
+
+@keyframes blinker {  
+    50% { opacity: 0; }
+}
+
 #kkk {
     font-size: 75vh;
     font-family: Sans-Serif;
