@@ -1,5 +1,7 @@
+let i = 0;
+
 const colors = [
-    null,
+    '#808028',
     '#FF0D72',
     '#0DC2FF',
     '#0DFF72',
@@ -10,15 +12,11 @@ const colors = [
 ];
 
 document.addEventListener('keydown', event => {
-    if (event.keyCode === 37) {
-        playerMove(-1);
-    } else if (event.keyCode === 39) {
-        playerMove(1);
-    } else if (event.keyCode === 40) {
-        playerDrop();
-    } else if (event.keyCode === 81) {
-        playerRotate(-1);
-    } else if (event.keyCode === 87) {
-        playerRotate(1);
+    kkk = event.keyCode;
+    document.getElementById('kkk').innerHTML = kkk;
+    i++;
+    document.body.style.backgroundColor = colors[i];
+    if (i > 8) {
+    i = 0;
     }
-})
+});

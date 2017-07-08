@@ -1,11 +1,19 @@
 body {
     background: #202028;
     color: #fff;
-    font-family: Sans-Serif;
-    font-size: 2em;
+    height: 100%;
     text-align: center;
 }
 
-canvas {
-    height: 90vh;
+#kkk {
+    font-size: 75vh;
+    font-family: Sans-Serif;
+    line-height: 80%;
+}
+
+#usage {
+    height: 5vh;
+    font-family: Courier New, Courier, monospace;
+    color:  #808080;
+    line-height: 80%;
 }
