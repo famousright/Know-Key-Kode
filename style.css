@@ -2,7 +2,10 @@ body {
     background: #202028;
     color: #fff;
     height: 100%;
+    width: 100%;
     text-align: center;
+    margin: 0;
+    vertical-align: middle;
 }
 
 .blink_me {
@@ -22,14 +25,16 @@ body {
 }
 
 #kkk {
-    font-size: 70vh;
+    font-size: 85vh;
     font-family: Sans-Serif;
     line-height: 80%;
+    vertical-align: middle;
+    text-align: center;
 }
 
 #usage {
     height: 5vh;
     font-family: Courier New, Courier, monospace;
-    color:  #808080;
-    line-height: 80%;
+    color:  #cccccc;
+    line-height: 75%;
 }
