@@ -3,24 +3,24 @@ $( document ).ready(function() {
 let i = 0;
 
 const colors = [
-    '#808028',
+    '#FF00FF',
     '#FF0D72',
     '#0DC2FF',
     '#0DFF72',
     '#F538FF',
-    '#FF8E0D',
+    '#6633FF',
     '#FFE138',
-    '#3877FF',
+    '#FF0066',
 ];
 
 document.addEventListener('keydown', event => {
     kkk = event.keyCode;
     document.getElementById('kkk').innerHTML = kkk;
-    i++;
     document.body.style.backgroundColor = colors[i];
     if (i > 8) {
     i = 0;
     }
+    i++;
 });
 
 function blink() { 
