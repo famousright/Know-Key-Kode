@@ -14,12 +14,6 @@ body {
     font-family: Courier New, Courier, monospace;
 }
 
-.blink_me.hover{
-  color: red;
-  text-decoration: none;
-  border-bottom: 1px solid blue;
-}
-
 @keyframes blinker {  
     100% { opacity: 0; }
 }
