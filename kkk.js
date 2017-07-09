@@ -17,10 +17,10 @@ document.addEventListener('keydown', event => {
     kkk = event.keyCode;
     document.getElementById('kkk').innerHTML = kkk;
     document.body.style.backgroundColor = colors[i];
+    i++;
     if (i > 8) {
     i = 0;
     }
-    i++;
 });
 
 function blink() { 
