@@ -14,11 +14,11 @@ const colors = [
 ];
 
 document.addEventListener('keydown', event => {
-    kkk = event.keyCode;
+    let kkk = event.keyCode || event.which;
     document.getElementById('kkk').innerHTML = kkk;
     document.body.style.backgroundColor = colors[i];
     i++;
-    if (i > 8) {
+    if (i >= colors.length) {
     i = 0;
     }
 });
